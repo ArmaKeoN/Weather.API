@@ -31,7 +31,7 @@ resource "linode_instance" "weatherApiInstance" {
   }
   provisioner "remote-exec" {
     inline = [
-      "chmod -x /tmp/setup_script.sh",
+      "chmod +x /tmp/setup_script.sh",
       "/tmp/setup_script.sh",
       "sleep 1"
     ]
