@@ -4,6 +4,13 @@ terraform {
       source  = "linode/linode"
       version = "1.29.4"
     }
+  } 
+  cloud {
+    organization = "jonahlozano03"
+    
+    workspaces {
+      name = "example-workspace"
+    }
   }
 }
 
