@@ -67,7 +67,7 @@ resource "linode_firewall" "weatherApiFirewall" {
     label    = "allow-http"
     action   = "ACCEPT"
     protocol = "TCP"
-    ports    = "22, 80"
+    ports    = "22, 80, 8000, 8080"
     ipv4     = ["0.0.0.0/0"]
     ipv6     = ["ff00::/8"]
   }
