@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'jlozano03 Docker Hub'
-        repository: 'jlozano03/weatherapiamd64'
+        repository: 'jlozano03/weather.api'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
