@@ -1,4 +1,4 @@
-//Test to trigger CI pipeline from GitHub -> ADO
+//Test
 namespace weatherapi;
 
 public class WeatherForecast
