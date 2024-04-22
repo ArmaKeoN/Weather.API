@@ -1,4 +1,3 @@
-//Test
 namespace weatherapi;
 
 public class WeatherForecast
